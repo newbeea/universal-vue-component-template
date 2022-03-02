@@ -5,12 +5,12 @@
 
 <script>
 import HelloWorld from 'universal-vue-template'
-
+import 'universal-vue-template/dist/style.css'
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    HelloWorld,
+  },
 }
 </script>
 

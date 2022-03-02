@@ -27,3 +27,11 @@ yarn add universal-vue-template
 import Universal from 'universal-vue-template'
 import 'universal-vue-template/dist/style.css'
 ```
+
+Vue2 example
+[src](https://github.com/newbeea/universal-vue-component-template/tree/master/examples/vue2)
+[preview](https://universal-vue-component-2.vercel.app/)
+
+Vue3 example
+[src](https://github.com/newbeea/universal-vue-component-template/tree/master/examples/vue3)
+[preview](https://universal-vue-component-3.vercel.app/)
