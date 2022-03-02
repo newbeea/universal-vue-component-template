@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <Universal />
+    <HelloWorld />
   </div>
 </template>
 
 <script>
-import Universal from 'universal-vue-template'
+import HelloWorld from 'universal-vue-template'
 import 'universal-vue-template/dist/style.css'
 export default {
   name: 'App',
   components: {
-    Universal,
+    HelloWorld,
   },
 }
 </script>
