@@ -1,6 +1,6 @@
 # Universal vue component template
-A template for building Universal Vue Libraries for Vue 2 & 3
-Use vue-demi but you don't need to write 'render' function, "template" and "tsx" are supported!
+- Building Universal Vue Libraries for Vue 2 & 3
+- Using vue-demi but you don't need to write "render" function, "template" and "tsx" are supported!
 
 ## Usage
 - Use this template or clone it
