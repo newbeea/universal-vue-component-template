@@ -4,7 +4,7 @@ import Counter from './counter'
 export default defineComponent({
   name: 'HelloWorld',
   components: {
-    Counter
+    Counter,
   },
   props: {
     msg: {
