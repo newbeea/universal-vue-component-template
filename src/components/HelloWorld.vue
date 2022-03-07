@@ -42,7 +42,18 @@ export default defineComponent({
       <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Docs</a>
     </p>
 
-    <Counter />
+    <Counter>
+      <template #default>
+        <div>Default slot</div>
+      </template>
+      <template
+        #scopedTest="{
+          data
+        }"
+      >
+        <div>{{ data }}</div>
+      </template>
+    </Counter>
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test hot module replacement.

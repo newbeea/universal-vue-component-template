@@ -10,7 +10,7 @@ const isVue2 = +version.split('.')[0] === 2
 
 if (isVue2) {
   pkg.main = './dist/vue2/index.umd.js'
-  pkg.module = './dist/vue2/index.umd.js'
+  pkg.module = './dist/vue2/index.es.js'
 }
 else {
   pkg.main = './dist/vue3/index.umd.js'
